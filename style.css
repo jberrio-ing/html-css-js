@@ -1,0 +1,50 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.color-titulo-toggle {
+    color: red;
+}
+
+.tarjeta {
+    border: 1px solid black;
+    width: 250px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.tarjeta img {
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+
+.tarjeta h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.tarjeta p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.tarjeta button {
+    display: block;
+    cursor: pointer;
+    background: #000;
+    color: white;
+    margin: auto;
+    width: 240px;
+    height: 32px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tarjeta button:hover {
+    box-shadow: 1px 1px 6px 1px #3e3e3e;
+    transform: scale(1.1);
+    transition: all 1s;
+}
